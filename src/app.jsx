@@ -7,7 +7,7 @@ export default function App() {
         <p>Do you want to play a game?</p>
 
         <div>
-            <GameBoard secretWord="React" />
+            <GameBoard secretWord="Wednesday" />
         </div>
     </div>
     );

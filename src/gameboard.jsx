@@ -4,7 +4,9 @@ export default function GameBoard({secretWord}) {
     
     return (
         <div>
-            <LetterGrid secretWord={secretWord} />
+            <LetterGrid 
+                secretWord={secretWord}
+                guessedLetters={['e', 'd']} />
         </div>
     )
 }
