@@ -1,4 +1,5 @@
 import LetterGrid from "./lettergrid"
+import ButtonGrid from "./buttongrid"
 
 export default function GameBoard({secretWord}) {
     
@@ -7,6 +8,7 @@ export default function GameBoard({secretWord}) {
             <LetterGrid 
                 secretWord={secretWord}
                 guessedLetters={['e', 'd']} />
+            <ButtonGrid />
         </div>
     )
 }
